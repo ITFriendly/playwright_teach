@@ -78,6 +78,7 @@ public class OksanaTest extends BasePlayWrightTest {
         addToBag();
         page.locator("#remove-sauce-labs-backpack").click();
         assertThat(page.locator(".shopping_cart_link")).isEmpty();
+
     }
 
 }
