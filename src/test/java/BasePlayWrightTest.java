@@ -79,7 +79,7 @@ public class BasePlayWrightTest {
 
             Allure.addAttachment(uuid, new ByteArrayInputStream(screenshot));
             Allure.addAttachment("source.html", "text/html", page.content());
-        }
+      
         if (isTraceEnabled) {
             String traceFileName = String.format("target/%s_trace.zip", randomStr);
             Path tracePath = Paths.get(traceFileName);
@@ -88,6 +88,7 @@ public class BasePlayWrightTest {
                             .setPath(tracePath));
             Allure.addAttachment("traceForPlayWright.zip", new ByteArrayInputStream(Files.readAllBytes(tracePath)));
             Allure.addAttachment("Link","https://trace.playwright.dev/");
+              }
         }
     }
 }
