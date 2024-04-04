@@ -56,4 +56,28 @@ public class OksanaTest extends BasePlayWrightTest {
         Assert.assertEquals(page.locator(".inventory_item_name").textContent(), productToBuy);
 
     }
+    @Step("Add Add product to the bag")
+    public void addToBag() {
+        openBrowser();
+        login();
+        page.locator("#add-to-cart-sauce-labs-backpack").click();
+    }
+
+    @Test
+    @Description ("Checking +1 on the bag icon")
+    @Severity(SeverityLevel.NORMAL)
+    public void bagNotificationTest() {
+        addToBag();
+        assertThat(page.locator(".shopping_cart_link")).containsText("1");
+    }
+
+    @Test
+    @Description("Remove item from the bag on the product list page")
+    @Severity(SeverityLevel.NORMAL)
+    public void removeProductFromBagTest() {
+        addToBag();
+        page.locator("#remove-sauce-labs-backpack").click();
+        assertThat(page.locator(".shopping_cart_link")).isEmpty();
+    }
+
 }
