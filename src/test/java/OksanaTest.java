@@ -10,7 +10,7 @@ import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertTha
 public class OksanaTest extends BasePlayWrightTest {
 
     @Step("Open tested website")
-    public void openBrowser(){
+    public void openBrowser() {
         page.navigate("https://www.saucedemo.com/");
     }
 
@@ -18,15 +18,16 @@ public class OksanaTest extends BasePlayWrightTest {
     public void enterUsername(String username) {
         page.getByPlaceholder("Username").fill(username);
     }
-    @Step ("Fill in the Login field")
+
+    @Step("Fill in the Login field")
     public void enterPassword(String login) {
         page.getByPlaceholder("Password").fill(login);
     }
 
     @Test
-    @Description ("Succesfull login")
+    @Description("Succesfull login")
     @Severity(SeverityLevel.CRITICAL)
-    public void loginTest(){
+    public void loginTest() {
         openBrowser();
         enterUsername("standard_user");
         enterPassword("secret_sauce");
@@ -42,7 +43,7 @@ public class OksanaTest extends BasePlayWrightTest {
     }
 
     @Test
-    @Description ("Add product to the bag")
+    @Description("Add product to the bag")
     @Severity(SeverityLevel.CRITICAL)
     public void addToBagTest() {
         openBrowser();
@@ -56,4 +57,4 @@ public class OksanaTest extends BasePlayWrightTest {
         Assert.assertEquals(page.locator(".inventory_item_name").textContent(), productToBuy);
 
     }
-
+}
