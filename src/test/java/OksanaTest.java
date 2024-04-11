@@ -56,4 +56,4 @@ public class OksanaTest extends BasePlayWrightTest {
         Assert.assertEquals(page.locator(".inventory_item_name").textContent(), productToBuy);
 
     }
-}
+
