@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="Kyiv UA!" />
+    <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="Kyiv UA!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +20,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
@@ -25,13 +33,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="proportion" value="0.23254536" />
@@ -44,74 +45,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/!Teach/playwright_teach&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/!Teach/playwright_teach",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.editor"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\!Teach\playwright_teach" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GoogleSearchTest.searchTest">
-    <configuration name="playwright_teach [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="test" />
-              </list>
-            </option>
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="ExamplesTest" type="TestNG" editBeforeRun="true" temporary="true" nameIsGenerated="true" show_console_on_std_err="true" show_console_on_std_out="true">
-      <output_file path="$PROJECT_DIR$/../../Work/t" is_save="true" />
-      <module name="playwright_teach" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExamplesTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2" />
-    </configuration>
-    <configuration name="ExamplesTest.textBoxFillTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ElementsHelenTest.elementsTextboxNegativeTest">
+    <configuration name="ElementsHelenTest.elementsTextboxNegativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="playwright_teach" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExamplesTest" />
-      <option name="METHOD_NAME" value="textBoxFillTest" />
+      <option name="MAIN_CLASS_NAME" value="ElementsHelenTest" />
+      <option name="METHOD_NAME" value="elementsTextboxNegativeTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -119,11 +75,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ElementsHelenTest.elementsTextboxTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="playwright_teach" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GoogleSearchTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="ElementsHelenTest" />
+      <option name="METHOD_NAME" value="elementsTextboxTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamplesTest.alertTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="playwright_teach" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExamplesTest" />
+      <option name="METHOD_NAME" value="alertTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamplesTest.textBoxFillTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="playwright_teach" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExamplesTest" />
+      <option name="METHOD_NAME" value="textBoxFillTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -152,19 +133,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Maven.playwright_teach [test]" />
-      <item itemvalue="TestNG.GoogleSearchTest" />
+      <item itemvalue="TestNG.ElementsHelenTest.elementsTextboxNegativeTest" />
+      <item itemvalue="TestNG.ElementsHelenTest.elementsTextboxTest" />
+      <item itemvalue="TestNG.ExamplesTest.alertTest" />
       <item itemvalue="TestNG.GoogleSearchTest.searchTest" />
-      <item itemvalue="TestNG.ExamplesTest" />
       <item itemvalue="TestNG.ExamplesTest.textBoxFillTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GoogleSearchTest.searchTest" />
-        <item itemvalue="TestNG.GoogleSearchTest" />
-        <item itemvalue="Maven.playwright_teach [test]" />
-        <item itemvalue="TestNG.ExamplesTest" />
+        <item itemvalue="TestNG.ElementsHelenTest.elementsTextboxNegativeTest" />
+        <item itemvalue="TestNG.ElementsHelenTest.elementsTextboxTest" />
         <item itemvalue="TestNG.ExamplesTest.textBoxFillTest" />
+        <item itemvalue="TestNG.ExamplesTest.alertTest" />
+        <item itemvalue="TestNG.GoogleSearchTest.searchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -355,5 +336,9 @@
     <MESSAGE value="Kyiv" />
     <MESSAGE value="Kyiv UA!" />
     <option name="LAST_COMMIT_MESSAGE" value="Kyiv UA!" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
