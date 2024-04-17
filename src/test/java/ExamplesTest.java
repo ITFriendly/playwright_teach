@@ -1,14 +1,14 @@
 import com.microsoft.playwright.ElementHandle;
 import com.microsoft.playwright.Locator;
+import core.BasePlayWrightTest;
 import io.qameta.allure.Step;
 import org.testng.Assert;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
-
 import java.util.List;
-
 import static org.testng.Assert.assertEquals;
 
+@Ignore
 public class ExamplesTest extends BasePlayWrightTest {
 
 

@@ -1,3 +1,5 @@
+package core;
+
 import com.microsoft.playwright.*;
 import io.qameta.allure.Allure;
 import org.testng.ITestResult;

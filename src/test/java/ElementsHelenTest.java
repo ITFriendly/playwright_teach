@@ -1,11 +1,12 @@
 import com.microsoft.playwright.Locator;
+import core.BasePlayWrightTest;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ElementsHelenTest extends BasePlayWrightTest{
+public class ElementsHelenTest extends BasePlayWrightTest {
 
     @Test
     @Description ("Elements_textbox testing")

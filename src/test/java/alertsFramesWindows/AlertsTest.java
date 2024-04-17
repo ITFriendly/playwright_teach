@@ -1,5 +1,8 @@
+package alertsFramesWindows;
+
+import com.microsoft.playwright.Dialog;
 import com.microsoft.playwright.Locator;
-import io.qameta.allure.Step;
+import core.BasePlayWrightTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -28,7 +31,7 @@ public class AlertsTest extends BasePlayWrightTest {
     }
 
     @Test
-    public void timeallertDialogTest() throws InterruptedException {
+    public void timeallertDialogTest()  {
         page.navigate("https://demoqa.com/alerts");
         Locator timealert = page.locator("#timerAlertButton");
         System.out.println(timealert.hashCode());
@@ -64,7 +67,7 @@ public class AlertsTest extends BasePlayWrightTest {
     public void confirmButtonCancel() {
         page.navigate("https://demoqa.com/alerts");
         Locator confirmButton = page.locator("#confirmButton");
-        page.onceDialog(dialog -> dialog.dismiss());
+        page.onceDialog(Dialog::dismiss);
         confirmButton.click();
         assertThat(page.locator("#confirmResult")).containsText(
                 "Cancel");
