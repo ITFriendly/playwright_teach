@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="correct test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/AlertsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ClassTarasTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/alertsFramesWindows/Alerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Alerts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Alerts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BasePlayWrightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasePlayWrightTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +40,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="master_test" />
-                    <option name="lastUsedInstant" value="1712853060" />
+                    <option name="lastUsedInstant" value="1713355677" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1712853059" />
+                    <option name="lastUsedInstant" value="1713355605" />
                   </RecentBranch>
                 </list>
               </option>
@@ -75,18 +76,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/!Teach/playwright_teach",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/!Teach/playwright_teach&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="alertsFramesWindows" />
@@ -98,68 +99,45 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GoogleSearchTest.searchTest">
-    <configuration name="playwright_teach [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="test" />
-              </list>
-            </option>
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="ExamplesTest" type="TestNG" editBeforeRun="true" temporary="true" nameIsGenerated="true" show_console_on_std_err="true" show_console_on_std_out="true">
-      <output_file path="$PROJECT_DIR$/../../Work/t" is_save="true" />
+  <component name="RunManager" selected="TestNG.AlertsTest (1)">
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="playwright_teach" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExamplesTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="playwright_teach" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="playwright_teach" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ExamplesTest.textBoxFillTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertsTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="playwright_teach" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExamplesTest" />
-      <option name="METHOD_NAME" value="textBoxFillTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GoogleSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="playwright_teach" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GoogleSearchTest" />
+      <option name="MAIN_CLASS_NAME" value="AlertsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -167,17 +145,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleSearchTest.searchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="playwright_teach" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GoogleSearchTest" />
-      <option name="METHOD_NAME" value="searchTest" />
+      <option name="MAIN_CLASS_NAME" value="alertsFramesWindows.AlertsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertsTest.confirmButtonCancel" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="playwright_teach" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="alertsFramesWindows.AlertsTest" />
+      <option name="METHOD_NAME" value="confirmButtonCancel" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="AlertsTest.confirmButtonOk" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="playwright_teach" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="alertsFramesWindows.AlertsTest" />
+      <option name="METHOD_NAME" value="confirmButtonOk" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertsTest.promtButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="playwright_teach" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="alertsFramesWindows.AlertsTest" />
+      <option name="METHOD_NAME" value="promtButton" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="playwright_teach" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
     </configuration>
     <configuration name="e2e" type="UUVRunConfiguration" factoryName="UUVRunConfiguration">
       <option name="projectHomeDir" value="$PROJECT_DIR$" />
@@ -188,20 +212,52 @@
       <option name="targetScript" value="open" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="playwright_teach" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="playwright_teach" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Maven.playwright_teach [test]" />
-      <item itemvalue="TestNG.GoogleSearchTest" />
-      <item itemvalue="TestNG.GoogleSearchTest.searchTest" />
-      <item itemvalue="TestNG.ExamplesTest" />
-      <item itemvalue="TestNG.ExamplesTest.textBoxFillTest" />
+      <item itemvalue="TestNG.AlertsTest" />
+      <item itemvalue="TestNG.AlertsTest (1)" />
+      <item itemvalue="TestNG.AlertsTest.confirmButtonCancel" />
+      <item itemvalue="TestNG.AlertsTest.confirmButtonOk" />
+      <item itemvalue="TestNG.AlertsTest.promtButton" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GoogleSearchTest.searchTest" />
-        <item itemvalue="TestNG.GoogleSearchTest" />
-        <item itemvalue="Maven.playwright_teach [test]" />
-        <item itemvalue="TestNG.ExamplesTest" />
-        <item itemvalue="TestNG.ExamplesTest.textBoxFillTest" />
+        <item itemvalue="TestNG.AlertsTest (1)" />
+        <item itemvalue="TestNG.AlertsTest.promtButton" />
+        <item itemvalue="TestNG.AlertsTest.confirmButtonCancel" />
+        <item itemvalue="TestNG.AlertsTest.confirmButtonOk" />
+        <item itemvalue="TestNG.AlertsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -411,5 +467,16 @@
     <MESSAGE value="Kyiv UA!" />
     <MESSAGE value="correct test" />
     <option name="LAST_COMMIT_MESSAGE" value="correct test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/AlertsTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
