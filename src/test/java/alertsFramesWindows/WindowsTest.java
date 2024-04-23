@@ -1,15 +1,16 @@
 package alertsFramesWindows;
 
-import com.microsoft.playwright.APIResponse;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import core.BasePlayWrightTest;
+import lombok.extern.slf4j.Slf4j;
 import org.testng.annotations.Test;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 import static org.testng.AssertJUnit.assertEquals;
 
-public class Windows extends BasePlayWrightTest {
+@Slf4j
+public class WindowsTest extends BasePlayWrightTest {
 
 
     @Test
@@ -22,6 +23,10 @@ public class Windows extends BasePlayWrightTest {
         });
         popup.waitForLoadState();
         System.out.println(popup.url());
+        log.info(popup.url());
+        log.error(popup.url());
+        log.warn(popup.content() + " newTab");
+
         System.out.println(popup.content() + " newTab");
         System.out.println(popup.locator("#sampleHeading").textContent());
         System.out.println(popup.locator("#sampleHeading").getClass());
