@@ -1,5 +1,6 @@
 package alertsFramesWindows;
 
+
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.AriaRole;
 import core.BasePlayWrightTest;
@@ -13,10 +14,12 @@ import org.testng.annotations.Test;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
+
 @Slf4j
 public class DialogsTest extends BasePlayWrightTest {
 
     @Test
+
     @Description("Test wrote by playwright recorder")
     public void smallModaltest() {
         page.navigate("https://demoqa.com/modal-dialogs");
@@ -60,4 +63,5 @@ public class DialogsTest extends BasePlayWrightTest {
         assertThat(page.locator(".modal-body")).containsText("Lorem Ipsum is simply ");
         page.locator("#closeLargeModal").click();
     }
+
 }
