@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Example Suite" verbose="1" >
+<suite name="ExampleSuite" verbose="1" >
     <test name="exampleTests" skipfailedinvocationcounts="true">
        <packages >
            <package name="exampleTests" ></package>

@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
-@Ignore
+
 public class OksanaTest extends BasePlayWrightTest {
 
     @Step("Open tested website")

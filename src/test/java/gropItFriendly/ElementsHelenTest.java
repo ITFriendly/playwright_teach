@@ -9,7 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
-@Ignore
+
 public class ElementsHelenTest extends BasePlayWrightTest {
 
     @Test

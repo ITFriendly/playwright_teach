@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aff84639-2607-46e9-bfd7-8103640c31fb" name="Changes" comment="Добавлены логи&#10;Добавлено описание&#10;Добавлен паралельный запуск тестов">
+    <list default="true" id="aff84639-2607-46e9-bfd7-8103640c31fb" name="Changes" comment="Разюил тесты по сьютам, установил версию убунту.... короче наворотил хер пойми чего - всё равно это никто не читает">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/core/BasePlayWrightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BasePlayWrightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampleSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/alertsFramesWindows/NestedFramesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alertsFramesWindows/NestedFramesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exampleTests/apiDemoSimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exampleTests/apiDemoSimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gropItFriendly/ElementsHelenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gropItFriendly/ElementsHelenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gropItFriendly/OksanaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gropItFriendly/OksanaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alertsFramesWindows.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -2,14 +2,12 @@ package exampleTests;
 
 import com.microsoft.playwright.APIResponse;
 import core.BasePlayWrightTest;
-import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
-import java.util.Arrays;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
-@Ignore
+
 public class apiDemoSimpleTest extends BasePlayWrightTest {
 
 
