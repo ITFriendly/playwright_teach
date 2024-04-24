@@ -29,10 +29,11 @@ public class BasePlayWrightTest {
     public void setUp() {
 
        // System.out.println(isHeadlessEnabled + " clear boolen");
-        if (System.getProperty("os.name").toLowerCase().contains("windows")) isHeadlessEnabled = false;
+     //   if (!System.getProperty("os.name").toLowerCase().contains("windows")) isHeadlessEnabled = false;
        // System.out.println(System.getProperty("os.name"));
        //инициализация браузера с настройками
-     browser = Playwright
+
+        browser = Playwright
                 .create()
                 .chromium()
                 .launch(new BrowserType.LaunchOptions().setHeadless(isHeadlessEnabled).setChannel("chrome"));

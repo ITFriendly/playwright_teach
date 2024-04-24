@@ -19,7 +19,6 @@ import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertTha
 public class DialogsTest extends BasePlayWrightTest {
 
     @Test
-
     @Description("Test wrote by playwright recorder")
     public void smallModaltest() {
         page.navigate("https://demoqa.com/modal-dialogs");

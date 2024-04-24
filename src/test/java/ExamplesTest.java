@@ -5,16 +5,18 @@ import io.qameta.allure.Step;
 import org.testng.Assert;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
+
 import java.util.List;
+
 import static org.testng.Assert.assertEquals;
 
 @Ignore
 public class ExamplesTest extends BasePlayWrightTest {
 
 
-
-    @Step ("Example")
+    @Step("Example")
     @Test
+    @Ignore
     public void textBoxFillTest() {
         page.navigate("http://85.192.34.140:8081/");
         page.getByText("Elements").click();
@@ -42,7 +44,8 @@ public class ExamplesTest extends BasePlayWrightTest {
         //Проверяем, что старое значение слайдера не равно прежнему
         Assert.assertNotEquals("25", page.locator("[id=sliderValue]").getAttribute("value"));
     }
-@Ignore
+
+    @Ignore
     @Test
     public void alertTest() {
         page.navigate("http://85.192.34.140:8081/");
@@ -58,7 +61,8 @@ public class ExamplesTest extends BasePlayWrightTest {
             dialog.accept();
         });
     }
-@Ignore
+
+    @Ignore
     @Test(priority = 1)
     public void networkTest() {
         //открываем нужную страницу

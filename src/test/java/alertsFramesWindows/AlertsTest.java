@@ -5,7 +5,6 @@ import com.microsoft.playwright.Locator;
 import core.BasePlayWrightTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
 public class AlertsTest extends BasePlayWrightTest {
