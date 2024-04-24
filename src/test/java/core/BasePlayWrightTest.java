@@ -27,7 +27,7 @@ public class BasePlayWrightTest {
     @BeforeClass
     public void setUp() {
 
-        if (System.getProperty("os.name").toLowerCase().contains("windows")) isHeadlessEnabled = false;
+        if (!System.getProperty("os.name").toLowerCase().contains("windows")) isHeadlessEnabled = false;
         // System.out.println(System.getProperty("os.name"));
         //инициализация браузера с настройками
 
