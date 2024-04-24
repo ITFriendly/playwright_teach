@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="add DialogsTest and all tests, task complete.">
       <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -14,6 +15,7 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/alertsFramesWindows/AlertsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alertsFramesWindows/AlertsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/alertsFramesWindows/DialogsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alertsFramesWindows/DialogsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/core/BasePlayWrightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BasePlayWrightTest.java" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+
         <entry key="$PROJECT_DIR$" value="logginggg" />
+
       </map>
     </option>
     <option name="UPDATE_TYPE" value="REBASE" />
@@ -45,10 +49,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+
                     <option name="branchName" value="dialogs" />
                     <option name="lastUsedInstant" value="1713895397" />
                   </RecentBranch>
                   <RecentBranch>
+
                     <option name="branchName" value="logginggg" />
                     <option name="lastUsedInstant" value="1713784604" />
                   </RecentBranch>
@@ -91,6 +97,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -101,6 +108,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "build.tools"
+
   }
 }]]></component>
   <component name="RecentsManager">
@@ -116,8 +124,10 @@
       <recent name="C:\!Teach\playwright_teach_ITFreiendly\src\resources\maven\conf\logging" />
     </key>
   </component>
+
   <component name="RunManager" selected="TestNG.DialogsTest.largeModalSimpletest">
     <configuration name="AlertsTest.allertDialogTest" type="TestNG" temporary="true" nameIsGenerated="true">
+
       <module name="playwright_teach" />
       <extension name="coverage">
         <pattern>
@@ -135,7 +145,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <configuration name="DialogsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+
       <module name="playwright_teach" />
       <extension name="coverage">
         <pattern>
@@ -145,13 +157,16 @@
       </extension>
       <option name="PACKAGE_NAME" value="alertsFramesWindows" />
       <option name="MAIN_CLASS_NAME" value="alertsFramesWindows.DialogsTest" />
+
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <configuration name="DialogsTest.largeModalSimpletest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="playwright_teach" />
       <extension name="coverage">
@@ -171,6 +186,7 @@
       </method>
     </configuration>
     <configuration name="DialogsTest.smallModalSimpletest" type="TestNG" temporary="true" nameIsGenerated="true">
+
       <module name="playwright_teach" />
       <extension name="coverage">
         <pattern>
@@ -179,8 +195,10 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="alertsFramesWindows" />
+
       <option name="MAIN_CLASS_NAME" value="alertsFramesWindows.DialogsTest" />
       <option name="METHOD_NAME" value="smallModalSimpletest" />
+
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -188,7 +206,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <configuration name="DialogsTest.smallModaltest" type="TestNG" temporary="true" nameIsGenerated="true">
+
       <module name="playwright_teach" />
       <extension name="coverage">
         <pattern>
@@ -197,8 +217,10 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="alertsFramesWindows" />
+
       <option name="MAIN_CLASS_NAME" value="alertsFramesWindows.DialogsTest" />
       <option name="METHOD_NAME" value="smallModaltest" />
+
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -216,6 +238,7 @@
       <method v="2" />
     </configuration>
     <list>
+
       <item itemvalue="TestNG.AlertsTest.allertDialogTest" />
       <item itemvalue="TestNG.DialogsTest" />
       <item itemvalue="TestNG.DialogsTest.largeModalSimpletest" />
@@ -229,6 +252,7 @@
         <item itemvalue="TestNG.DialogsTest.smallModaltest" />
         <item itemvalue="TestNG.AlertsTest.allertDialogTest" />
         <item itemvalue="TestNG.DialogsTest.smallModalSimpletest" />
+
       </list>
     </recent_temporary>
   </component>
@@ -402,6 +426,7 @@
       <option name="project" value="LOCAL" />
       <updated>1713877609690</updated>
     </task>
+
     <task id="LOCAL-00024" summary="add DialogsTest and all tests, task complete.">
       <created>1713898548152</created>
       <option name="number" value="00024" />
@@ -417,6 +442,7 @@
       <updated>1713899906529</updated>
     </task>
     <option name="localTasksCounter" value="26" />
+
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -463,7 +489,9 @@
     <MESSAGE value="Kyiv" />
     <MESSAGE value="Kyiv UA!" />
     <MESSAGE value="Add sl4j and lombok + docs" />
+
     <MESSAGE value="add DialogsTest and all tests, task complete." />
     <option name="LAST_COMMIT_MESSAGE" value="add DialogsTest and all tests, task complete." />
+
   </component>
 </project>
