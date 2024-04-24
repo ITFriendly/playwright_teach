@@ -1,0 +1,4 @@
+INFO  18:55:37 addLogs() - Just info message
+ERROR 18:55:37 addLogs() - Error + this is errroooooor
+INFO  18:55:37 addLogs() - org.itfriendly.Lombokeeting
+INFO  18:55:37 addLogs() - a is - 123
