@@ -18,7 +18,7 @@ public class BasePlayWrightTest {
     protected Page page;
     private Browser browser;
     private BrowserContext context;
-    private Boolean isTraceEnabled = false;
+    private Boolean isTraceEnabled = true;
     private Boolean isHeadlessEnabled = true;
 
     /**
@@ -27,7 +27,7 @@ public class BasePlayWrightTest {
     @BeforeClass
     public void setUp() {
 
-        if (!System.getProperty("os.name").toLowerCase().contains("windows")) isHeadlessEnabled = false;
+        if (System.getProperty("os.name").toLowerCase().contains("windows")) isHeadlessEnabled = false;
         // System.out.println(System.getProperty("os.name"));
         //инициализация браузера с настройками
 
