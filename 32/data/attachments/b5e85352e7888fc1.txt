@@ -1,0 +1,6 @@
+ERROR 11:45:42 test() - Штрашна ажжж жуть ))) 
+INFO  11:45:59 largeModalSimpleSimpletest() - Large Modal×
+INFO  11:46:39 addLogs() - Just info message
+ERROR 11:46:39 addLogs() - Error + this is errroooooor
+INFO  11:46:39 addLogs() - org.itfriendly.Lombokeeting
+INFO  11:46:39 addLogs() - a is - 123
