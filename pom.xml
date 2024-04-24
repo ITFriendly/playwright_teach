@@ -16,7 +16,7 @@
 
     <profiles>
         <profile>
-            <id>Alfrwin</id>
+            <id>AlertsFramesWindows</id>
             <build>
                 <plugins>
                     <plugin>

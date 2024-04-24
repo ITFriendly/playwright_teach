@@ -9,10 +9,30 @@
 name: ItFriendly group Workflow
 
 on:
-  push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+#  push:
+#    branches: [ "master" ]
+#  pull_request:
+#    branches: [ "master" ]
+
+  workflow_dispatch:
+    inputs:
+      titleCustom:
+         description: Choose Suite
+         type: string
+         required: false
+         default: "Good luck and Run! )"
+      selectCustom:
+        description: "Choose suite"
+        type: choice
+        required: true
+        options:
+          - All Tests
+          - AlertsFramesWindows
+          - ItFriendly
+          - Example
+        default: All Tests
+
+
 
 jobs:
   Run-Tests:
@@ -30,7 +50,7 @@ jobs:
       run: mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps"
 
     - name: Maven test
-      run: mvn test
+      run: mvn test -P${{inputs.selectCustom}}
 
 # TODO файл репорт надо скопировать в папку и оттуда приаттачить в action
 #    - name: make magic

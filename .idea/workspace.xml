@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aff84639-2607-46e9-bfd7-8103640c31fb" name="Changes" comment="Разюил тесты по сьютам, установил версию убунту.... короче наворотил хер пойми чего - всё равно это никто не читает">
+    <list default="true" id="aff84639-2607-46e9-bfd7-8103640c31fb" name="Changes" comment="Add test suites, sort and group tests.">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampleSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/alertsFramesWindows/NestedFramesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alertsFramesWindows/NestedFramesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/exampleTests/apiDemoSimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exampleTests/apiDemoSimpleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gropItFriendly/ElementsHelenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gropItFriendly/ElementsHelenTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gropItFriendly/OksanaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gropItFriendly/OksanaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alertsFramesWindows.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +29,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713955793194</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add test suites, sort and group tests.">
+      <created>1713981680065</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713981680065</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -52,6 +52,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавлены логи&#10;Добавлено описание&#10;Добавлен паралельный запуск тестов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлены логи&#10;Добавлено описание&#10;Добавлен паралельный запуск тестов" />
+    <MESSAGE value="Add test suites, sort and group tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test suites, sort and group tests." />
   </component>
 </project>
