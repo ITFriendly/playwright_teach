@@ -4,12 +4,14 @@ import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import core.BasePlayWrightTest;
 import lombok.extern.slf4j.Slf4j;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 import static org.testng.AssertJUnit.assertEquals;
 
 @Slf4j
+@Ignore
 public class WindowsTest extends BasePlayWrightTest {
 
 

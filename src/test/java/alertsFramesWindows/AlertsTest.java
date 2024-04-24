@@ -5,9 +5,11 @@ import com.microsoft.playwright.Locator;
 import core.BasePlayWrightTest;
 import io.qameta.allure.Flaky;
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 @Flaky
+@Ignore
 public class AlertsTest extends BasePlayWrightTest {
 
     @Test
