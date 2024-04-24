@@ -1,15 +1,15 @@
 import core.BasePlayWrightTest;
-import io.qameta.allure.Description;
-import io.qameta.allure.Severity;
-import io.qameta.allure.SeverityLevel;
-import io.qameta.allure.Step;
+import io.qameta.allure.*;
 import org.testng.Assert;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
+import static io.qameta.allure.SeverityLevel.TRIVIAL;
 
 @Ignore
+@Severity(TRIVIAL)
+@Flaky
 public class GoogleSearchTest extends BasePlayWrightTest {
 
 

@@ -4,10 +4,7 @@ package alertsFramesWindows;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.AriaRole;
 import core.BasePlayWrightTest;
-import io.qameta.allure.AllureId;
-import io.qameta.allure.Description;
-import io.qameta.allure.Flaky;
-import io.qameta.allure.Step;
+import io.qameta.allure.*;
 import io.qameta.allure.testng.Tag;
 import lombok.extern.slf4j.Slf4j;
 import org.testng.annotations.Test;
@@ -44,6 +41,7 @@ public class DialogsTest extends BasePlayWrightTest {
     @Flaky
     @AllureId("12345")
     @Tag("Just a tag )")
+    @Link(name = "DEMOQA_TRAINING", url = "https://github.com/orgs/ITFriendly/projects/1/views/1?pane=issue&itemId=58709797")
     public void largeModalSimpletest() {
         page.navigate("https://demoqa.com/modal-dialogs");
         page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Large modal")).click();

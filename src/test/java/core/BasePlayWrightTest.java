@@ -2,10 +2,9 @@ package core;
 
 import com.microsoft.playwright.*;
 import io.qameta.allure.Allure;
+import io.qameta.allure.Step;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.*;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -16,8 +15,8 @@ import java.util.Random;
 import java.util.UUID;
 
 public class BasePlayWrightTest {
-    private Browser browser;
     protected Page page;
+    private Browser browser;
     private BrowserContext context;
     private Boolean isTraceEnabled = false;
     private Boolean isHeadlessEnabled = true;
@@ -28,10 +27,9 @@ public class BasePlayWrightTest {
     @BeforeClass
     public void setUp() {
 
-       // System.out.println(isHeadlessEnabled + " clear boolen");
-     //   if (!System.getProperty("os.name").toLowerCase().contains("windows")) isHeadlessEnabled = false;
-       // System.out.println(System.getProperty("os.name"));
-       //инициализация браузера с настройками
+        if (System.getProperty("os.name").toLowerCase().contains("windows")) isHeadlessEnabled = false;
+        // System.out.println(System.getProperty("os.name"));
+        //инициализация браузера с настройками
 
         browser = Playwright
                 .create()
@@ -43,7 +41,7 @@ public class BasePlayWrightTest {
                 .setLocale("uk-UA"));
 
         //трейсинг замедляет скорость заполнение полей
-        if(isTraceEnabled){
+        if (isTraceEnabled) {
             context.tracing().start(new Tracing.StartOptions()
                     .setScreenshots(true)
                     .setSnapshots(true)
@@ -58,10 +56,12 @@ public class BasePlayWrightTest {
      */
     @AfterClass
     public void tearDown() {
-        if (browser != null) {
-            browser.close();
-            browser = null;
-        }
+        browser.close();
+        //для возможности оставлять браузер открытым
+        //        if (browser != null) {
+//            browser.close();
+//            browser = null;
+//        }
     }
 
     /**
@@ -70,6 +70,7 @@ public class BasePlayWrightTest {
      * @param result данные о тесте
      * @throws IOException
      */
+
     @AfterMethod
     public void attachFilesToFailedTest(ITestResult result) throws IOException {
         String uuid = UUID.randomUUID().toString();
@@ -81,16 +82,23 @@ public class BasePlayWrightTest {
 
             Allure.addAttachment(uuid, new ByteArrayInputStream(screenshot));
             Allure.addAttachment("source.html", "text/html", page.content());
-      
-        if (isTraceEnabled) {
-            String traceFileName = String.format("target/%s_trace.zip", randomStr);
-            Path tracePath = Paths.get(traceFileName);
-            context.tracing()
-                    .stop(new Tracing.StopOptions()
-                            .setPath(tracePath));
-            Allure.addAttachment("traceForPlayWright.zip", new ByteArrayInputStream(Files.readAllBytes(tracePath)));
-            Allure.addAttachment("Link","https://trace.playwright.dev/");
-              }
+
+            if (isTraceEnabled) {
+                String traceFileName = String.format("target/%s_trace.zip", randomStr);
+                Path tracePath = Paths.get(traceFileName);
+                context.tracing()
+                        .stop(new Tracing.StopOptions()
+                                .setPath(tracePath));
+                Allure.addAttachment("traceForPlayWright.zip", new ByteArrayInputStream(Files.readAllBytes(tracePath)));
+                Allure.addAttachment("Link", "https://trace.playwright.dev/");
+            }
         }
+    }
+
+    @AfterTest
+    public void addLog() throws IOException {
+        String logfile = String.format("target/itfriendly-test.log");
+        Path logpath = Paths.get(logfile);
+        Allure.addAttachment("itfriendly-test.log", new ByteArrayInputStream(Files.readAllBytes(logpath)));
     }
 }

@@ -3,10 +3,11 @@ package alertsFramesWindows;
 import com.microsoft.playwright.Dialog;
 import com.microsoft.playwright.Locator;
 import core.BasePlayWrightTest;
+import io.qameta.allure.Flaky;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
-
+@Flaky
 public class AlertsTest extends BasePlayWrightTest {
 
     @Test
@@ -31,7 +32,7 @@ public class AlertsTest extends BasePlayWrightTest {
 
     @Test
     public void timeallertDialogTest()  {
-        page.navigate("https://demoqa.com/alerts");
+      //  page.navigate("https://demoqa.com/alerts");
         Locator timealert = page.locator("#timerAlertButton");
         System.out.println(timealert.hashCode());
         page.onceDialog(alert -> {
@@ -48,7 +49,7 @@ public class AlertsTest extends BasePlayWrightTest {
 
     @Test
     public void confirmButtonOk() {
-        page.navigate("https://demoqa.com/alerts");
+      //  page.navigate("https://demoqa.com/alerts");
         Locator confirmButton = page.locator("#confirmButton");
         page.onceDialog(alert -> {
             String message = alert.message();
@@ -64,7 +65,7 @@ public class AlertsTest extends BasePlayWrightTest {
 
     @Test
     public void confirmButtonCancel() {
-        page.navigate("https://demoqa.com/alerts");
+      //  page.navigate("https://demoqa.com/alerts");
         Locator confirmButton = page.locator("#confirmButton");
         page.onceDialog(Dialog::dismiss);
         confirmButton.click();
@@ -74,7 +75,7 @@ public class AlertsTest extends BasePlayWrightTest {
 
     @Test
     public void promtButton() {
-        page.navigate("https://demoqa.com/alerts");
+       // page.navigate("https://demoqa.com/alerts");
         Locator confirmButton = page.locator("#promtButton");
         String text = "Hello java";
         page.onceDialog(dialog -> {

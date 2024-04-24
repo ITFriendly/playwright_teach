@@ -4,10 +4,11 @@ import com.microsoft.playwright.FrameLocator;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.options.AriaRole;
 import core.BasePlayWrightTest;
+import io.qameta.allure.Flaky;
 import org.testng.annotations.Test;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
-
+@Flaky
 public class FramesTest extends BasePlayWrightTest {
 
     @Test
@@ -21,7 +22,7 @@ public class FramesTest extends BasePlayWrightTest {
     }
     @Test
     void fram2test() {
-        page.navigate("https://demoqa.com/frames");
+     //   page.navigate("https://demoqa.com/frames");
         FrameLocator frameLocator2 =  page.frameLocator("#frame2");
         System.out.println(frameLocator2.getByTitle("#frame2"));
         assertThat(page.frameLocator("#frame2").locator("body")).containsText("This is a sample page");
