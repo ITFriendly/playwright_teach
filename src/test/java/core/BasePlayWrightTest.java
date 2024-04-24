@@ -95,7 +95,7 @@ public class BasePlayWrightTest {
         }
     }
 
-    @AfterTest
+
     public void addLog() throws IOException {
         String logfile = String.format("target/itfriendly-test.log");
         Path logpath = Paths.get(logfile);

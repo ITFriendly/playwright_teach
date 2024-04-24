@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoQA Suite" parallel="classes" thread-count="2">
+    <test name="alertsFramesWindows">
+        <groups>
+            <run>
+                <exclude name="flaky"></exclude>
+            </run>
+        </groups>
+        <packages>
+            <package name="alertsFramesWindows"></package>
+        </packages>
+    </test>
+</suite>

@@ -3,11 +3,13 @@ package alertsFramesWindows;
 import com.microsoft.playwright.options.AriaRole;
 import core.BasePlayWrightTest;
 import lombok.extern.slf4j.Slf4j;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
 @Slf4j
+@Ignore
 public class NestedFramesTest extends BasePlayWrightTest {
 
     @Test

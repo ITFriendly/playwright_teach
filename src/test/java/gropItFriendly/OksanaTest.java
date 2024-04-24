@@ -1,3 +1,5 @@
+package gropItFriendly;
+
 import core.BasePlayWrightTest;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;

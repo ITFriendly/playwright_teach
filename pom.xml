@@ -27,9 +27,12 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.2</version>
                 <configuration>
-<!--                    <suiteXmlFiles>-->
-<!--                        <suiteXmlFile>testng.xml</suiteXmlFile>-->
-<!--                    </suiteXmlFiles>-->
+
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                        <suiteXmlFile>exampleSuite.xml</suiteXmlFile>
+                        <suiteXmlFile>gropItFriendly.xml</suiteXmlFile>
+                    </suiteXmlFiles>
 <!--                    <parallel>methods</parallel>-->
 <!--                    <threadCount>2</threadCount>-->
 <!--

@@ -1,3 +1,5 @@
+package exampleTests;
+
 import com.microsoft.playwright.APIResponse;
 import core.BasePlayWrightTest;
 import org.testng.annotations.Ignore;

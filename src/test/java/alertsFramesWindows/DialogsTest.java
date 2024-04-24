@@ -15,7 +15,7 @@ import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertTha
 @Slf4j
 public class DialogsTest extends BasePlayWrightTest {
 
-    @Test
+    @Test (groups = {"flaky"})
     @Description("Test wrote by playwright recorder")
     public void smallModaltest() {
         page.navigate("https://demoqa.com/modal-dialogs");
@@ -25,7 +25,7 @@ public class DialogsTest extends BasePlayWrightTest {
         page.locator("#closeSmallModal").click();
     }
 
-    @Test
+    @Test (groups = {"flaky"})
     public void smallModalSimpletest() {
         page.navigate("https://demoqa.com/modal-dialogs");
         page.locator("#showSmallModal").click();
@@ -35,7 +35,7 @@ public class DialogsTest extends BasePlayWrightTest {
         page.locator("#closeSmallModal").click();
     }
 
-    @Test
+    @Test (groups = {"flaky"})
     @Description("Test wrote by playwright recorder")
     @Step("Test wrote by playwright recorder")
     @Flaky

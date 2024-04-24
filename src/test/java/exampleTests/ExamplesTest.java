@@ -1,3 +1,5 @@
+package exampleTests;
+
 import com.microsoft.playwright.ElementHandle;
 import com.microsoft.playwright.Locator;
 import core.BasePlayWrightTest;

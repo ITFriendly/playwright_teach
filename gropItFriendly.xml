@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GropItFriendly Suite" verbose="2" parallel="classes" thread-count="2" >
+    <test name="GropItFriendlyTests" skipfailedinvocationcounts="true">
+       <packages >
+           <package name="gropItFriendly" ></package>
+       </packages>
+    </test>
+</suite>

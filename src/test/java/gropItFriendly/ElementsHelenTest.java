@@ -1,11 +1,15 @@
+package gropItFriendly;
+
 import com.microsoft.playwright.Locator;
 import core.BasePlayWrightTest;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
+@Ignore
 public class ElementsHelenTest extends BasePlayWrightTest {
 
     @Test

@@ -1,3 +1,5 @@
+package exampleTests;
+
 import core.BasePlayWrightTest;
 import io.qameta.allure.*;
 import org.testng.Assert;
