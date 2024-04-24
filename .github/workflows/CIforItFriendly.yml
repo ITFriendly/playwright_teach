@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: ItFriendly group Workflow
+name: ItFriendly group Workflow  ${{inputs.selectCustom}}
 
 on:
 #  push:

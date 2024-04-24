@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aff84639-2607-46e9-bfd7-8103640c31fb" name="Changes" comment="Add test suites, sort and group tests.">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="aff84639-2607-46e9-bfd7-8103640c31fb" name="Changes" comment="change action, add suites" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +33,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713981680065</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change action, add suites">
+      <created>1713983648122</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713983648122</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -53,6 +57,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавлены логи&#10;Добавлено описание&#10;Добавлен паралельный запуск тестов" />
     <MESSAGE value="Add test suites, sort and group tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add test suites, sort and group tests." />
+    <MESSAGE value="change action, add suites" />
+    <option name="LAST_COMMIT_MESSAGE" value="change action, add suites" />
   </component>
 </project>
