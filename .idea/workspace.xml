@@ -4,13 +4,93 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aff84639-2607-46e9-bfd7-8103640c31fb" name="Changes" comment="change action add name options" />
+    <list default="true" id="aff84639-2607-46e9-bfd7-8103640c31fb" name="Changes" comment="change action">
+      <change afterPath="$PROJECT_DIR$/src/test/java/exampleTests/GlobalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exampleTests/ExamplesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alertsFramesWindows/temp/ExamplesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exampleTests/GoogleSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alertsFramesWindows/temp/GoogleSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exampleTests/LogAddTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alertsFramesWindows/temp/LogAddTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exampleTests/apiDemoSimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alertsFramesWindows/temp/apiDemoSimpleTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="global" />
+                    <option name="lastUsedInstant" value="1714071001" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1714071000" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2fbXlr3hcuLBwDMN3PlYL9IH0F8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="GlobalTest.checkTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="playwright_teach" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exampleTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exampleTests" />
+      <option name="MAIN_CLASS_NAME" value="exampleTests.GlobalTest" />
+      <option name="METHOD_NAME" value="checkTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.GlobalTest.checkTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="Добавлены логи&#10;Добавлено описание&#10;Добавлен паралельный запуск тестов">
       <created>1713955079862</created>
@@ -47,7 +127,35 @@
       <option name="project" value="LOCAL" />
       <updated>1713984161894</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change action add name options">
+      <created>1713984232687</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713984232687</updated>
+    </task>
+    <task id="LOCAL-00007" summary="change action">
+      <created>1713984307547</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713984307547</updated>
+    </task>
+    <task id="LOCAL-00008" summary="change action">
+      <created>1713984509990</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713984509990</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aff84639-2607-46e9-bfd7-8103640c31fb" name="Changes" comment="change action" />
+      <created>1714070916780</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714070916780</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -66,6 +174,7 @@
     <MESSAGE value="Add test suites, sort and group tests." />
     <MESSAGE value="change action, add suites" />
     <MESSAGE value="change action add name options" />
-    <option name="LAST_COMMIT_MESSAGE" value="change action add name options" />
+    <MESSAGE value="change action" />
+    <option name="LAST_COMMIT_MESSAGE" value="change action" />
   </component>
 </project>
