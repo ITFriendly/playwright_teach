@@ -26,10 +26,10 @@ on:
         type: choice
         required: true
         options:
-          - "All Tests"
-          - AlertsFramesWindows
-          - ItFriendly
-          - Example
+          - mvn test 
+          - mvn test -P$AlertsFramesWindows
+          - mvn test -P$ItFriendly
+          - mvn test -P$Example
         default: All Tests
 
 
@@ -50,7 +50,8 @@ jobs:
       run: mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps"
 
     - name: Maven test
-      run: mvn test -P${{inputs.selectCustom}}
+      run: ${{inputs.selectCustom}}
+#      run: mvn test -P${{inputs.selectCustom}}
 
 # TODO файл репорт надо скопировать в папку и оттуда приаттачить в action
 #    - name: make magic
