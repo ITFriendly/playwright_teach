@@ -7,7 +7,7 @@
 # documentation.
 
 name: ItFriendly group Workflow
-run-name: Deploy to ${{ inputs.deploy_target }} by @${{ github.actor }} ${{inputs.selectCustom}}
+run-name: Run command - ${{inputs.selectCustom}} by @${{ github.actor }}
 
 on:
 #  push:
@@ -27,7 +27,7 @@ on:
         type: choice
         required: true
         options:
-          - mvn test 
+          - mvn test       
           - mvn test -PAlertsFramesWindows
           - mvn test -PItFriendly
           - mvn test -PExample
