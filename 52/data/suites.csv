@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Apr 26 09:30:27 GMT 2024","Fri Apr 26 09:30:31 GMT 2024","4046","ExampleSuite","exampleTests","exampleTests.GlobalTest","exampleTests.GlobalTest","checkTest","checkTest",""
