@@ -1,0 +1,5 @@
+INFO  10:41:53 smallModalSimpletest() - Small Modal×CloseThis is a small modal. It has very less contentClose
+INFO  10:41:55 addLogs() - Just info message
+ERROR 10:41:55 addLogs() - Error + this is errroooooor
+INFO  10:41:55 addLogs() - org.itfriendly.Lombokeeting
+INFO  10:41:55 addLogs() - a is - 123
