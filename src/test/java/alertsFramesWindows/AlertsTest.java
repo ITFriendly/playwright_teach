@@ -13,6 +13,7 @@ import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertTha
 public class AlertsTest extends BasePlayWrightTest {
 
     @Test
+
     public void allertDialogTest() {
         page.navigate("https://demoqa.com/alerts");
         //находим кнопку и выводим надпись кнопки и статус

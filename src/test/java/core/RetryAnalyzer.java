@@ -18,6 +18,8 @@ public class RetryAnalyzer implements IRetryAnalyzer {
         if (!result.isSuccess() && retryCount < maxRetryCount) {
             retryCount++;
             Allure.getLifecycle().updateTestCase(testResult -> testResult.setStatus(Status.BROKEN)); // Устанавливаем статус BROKEN для Allure
+            Allure.addAttachment("Attach", getClass().getName()+ " " + getRetryCount());
+            Allure.getLifecycle().updateTestCase(result.getTestName(), testResult -> testResult.setStatus(Status.valueOf("Brooooooken")));
             return true; // Перезапустить тест еще раз
         }
         return false;
