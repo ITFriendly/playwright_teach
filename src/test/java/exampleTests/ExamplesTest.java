@@ -1,4 +1,4 @@
-package alertsFramesWindows.temp;
+package exampleTests;
 
 import com.microsoft.playwright.ElementHandle;
 import com.microsoft.playwright.Locator;

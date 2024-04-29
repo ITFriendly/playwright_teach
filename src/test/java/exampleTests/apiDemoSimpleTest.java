@@ -1,4 +1,4 @@
-package alertsFramesWindows.temp;
+package exampleTests;
 
 import com.microsoft.playwright.APIResponse;
 import com.microsoft.playwright.Playwright;
