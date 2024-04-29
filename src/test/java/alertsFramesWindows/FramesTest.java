@@ -3,18 +3,21 @@ package alertsFramesWindows;
 import com.microsoft.playwright.*;
 import com.microsoft.playwright.options.AriaRole;
 import core.BasePlayWrightTest;
+import core.RetryAnalyzer;
 import io.qameta.allure.Flaky;
 import lombok.extern.slf4j.Slf4j;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
+
+import java.io.IOException;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 @Flaky
 @Slf4j
 public class FramesTest extends BasePlayWrightTest {
 
-    @Test
-    void fram1test() {
+    @Test(retryAnalyzer = RetryAnalyzer.class)
+    void fram1test() throws IOException {
         try {
             page.navigate("https://demoqa.com/frames");
             assertThat(page.locator("#framesWrapper")).containsText("Frames");
@@ -25,16 +28,14 @@ public class FramesTest extends BasePlayWrightTest {
         } catch (PlaywrightException e){
             log.error(e.getMessage());
         }finally {
+            addLog();
             page.close();
             tearDown();
         }
 
     }
-    @Test
-
-
-
-    void fram2test() {
+    @Test(retryAnalyzer = RetryAnalyzer.class)
+   void fram2test() throws IOException {
         try {
      //   page.navigate("https://demoqa.com/frames");
         FrameLocator frameLocator2 =  page.frameLocator("#frame2");
@@ -47,6 +48,7 @@ public class FramesTest extends BasePlayWrightTest {
             log.error(playwrightException.getMessage());
             log.error("Cause -  " +playwrightException.getCause());
         }  finally {
+            addLog();
         page.close();
         tearDown();
     }

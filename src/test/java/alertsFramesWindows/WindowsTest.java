@@ -3,6 +3,7 @@ package alertsFramesWindows;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import core.BasePlayWrightTest;
+import core.RetryAnalyzer;
 import lombok.extern.slf4j.Slf4j;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
@@ -11,11 +12,10 @@ import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertTha
 import static org.testng.AssertJUnit.assertEquals;
 
 @Slf4j
-
 public class WindowsTest extends BasePlayWrightTest {
 
 
-    @Test
+    @Test(retryAnalyzer = RetryAnalyzer.class)
     public void newTabTest(){
 
         page.navigate("https://demoqa.com/browser-windows");
@@ -36,7 +36,7 @@ public class WindowsTest extends BasePlayWrightTest {
         assertThat(popup.locator("#sampleHeading")).hasText("This is a sample page");
         popup.close();
     }
-    @Test
+    @Test(retryAnalyzer = RetryAnalyzer.class)
     public void newWindowTest(){
         page.navigate("https://demoqa.com/browser-windows");
         Locator locator = page.locator("#windowButton");

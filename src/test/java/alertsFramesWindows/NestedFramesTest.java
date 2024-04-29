@@ -2,6 +2,7 @@ package alertsFramesWindows;
 
 import com.microsoft.playwright.options.AriaRole;
 import core.BasePlayWrightTest;
+import core.RetryAnalyzer;
 import lombok.extern.slf4j.Slf4j;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
@@ -12,7 +13,7 @@ import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertTha
 
 public class NestedFramesTest extends BasePlayWrightTest {
 
-    @Test
+    @Test(retryAnalyzer = RetryAnalyzer.class)
     public void test() {
         page.navigate("https://demoqa.com/nestedframes");
         assertThat(page.locator("#framesWrapper")).containsText("Frames");
