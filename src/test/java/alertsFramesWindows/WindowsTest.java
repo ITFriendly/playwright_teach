@@ -11,7 +11,7 @@ import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertTha
 import static org.testng.AssertJUnit.assertEquals;
 
 @Slf4j
-@Ignore
+
 public class WindowsTest extends BasePlayWrightTest {
 
 

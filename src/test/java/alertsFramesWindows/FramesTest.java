@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 @Flaky
-@Ignore
+
 public class FramesTest extends BasePlayWrightTest {
 
     @Test
