@@ -1,0 +1,7 @@
+ERROR 06:22:04 test() - Штрашна ажжж жуть ))) 
+INFO  06:22:07 largeModalSimpleSimpletest() - Large Modal×
+INFO  06:22:08 smallModalSimpletest() - Small Modal×CloseThis is a small modal. It has very less contentClose
+INFO  06:22:12 addLogs() - Just info message
+ERROR 06:22:12 addLogs() - Error + this is errroooooor
+INFO  06:22:12 addLogs() - org.itfriendly.Lombokeeting
+INFO  06:22:12 addLogs() - a is - 123
