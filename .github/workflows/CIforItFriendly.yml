@@ -7,7 +7,6 @@
 # documentation.
 
 name: ItFriendly group Workflow
-run-name: Run command - ${{inputs.selectCustom}} by @${{ github.actor }}
 
 on:
 #  push:
@@ -27,10 +26,10 @@ on:
         type: choice
         required: true
         options:
-          - mvn test       
-          - mvn test -PAlertsFramesWindows
-          - mvn test -PItFriendly
-          - mvn test -PExample
+          - "All Tests"
+          - AlertsFramesWindows
+          - ItFriendly
+          - Example
         default: All Tests
 
 
@@ -51,8 +50,7 @@ jobs:
       run: mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps"
 
     - name: Maven test
-      run: ${{inputs.selectCustom}}
-#      run: mvn test -P${{inputs.selectCustom}}
+      run: mvn test -P${{inputs.selectCustom}}
 
 # TODO файл репорт надо скопировать в папку и оттуда приаттачить в action
 #    - name: make magic

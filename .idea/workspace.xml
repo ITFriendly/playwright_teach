@@ -4,18 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aff84639-2607-46e9-bfd7-8103640c31fb" name="Changes" comment="change action">
-      <change afterPath="$PROJECT_DIR$/src/test/java/exampleTests/GlobalTest.java" afterDir="false" />
+    <list default="true" id="aff84639-2607-46e9-bfd7-8103640c31fb" name="Changes" comment="add Global class, checking manual merge">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testSuites/practiceForm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/exampleTests/ExamplesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alertsFramesWindows/temp/ExamplesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/exampleTests/GoogleSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alertsFramesWindows/temp/GoogleSearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/exampleTests/LogAddTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alertsFramesWindows/temp/LogAddTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/exampleTests/apiDemoSimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alertsFramesWindows/temp/apiDemoSimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alertsFramesWindows.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testSuites/alertsFramesWindows.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampleSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testSuites/exampleSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gropItFriendly.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testSuites/gropItFriendly.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itfriendly-test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/alertsFramesWindows/temp/ExamplesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exampleTests/ExamplesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/alertsFramesWindows/temp/GoogleSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exampleTests/GoogleSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/alertsFramesWindows/temp/LogAddTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exampleTests/LogAddTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/alertsFramesWindows/temp/apiDemoSimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exampleTests/apiDemoSimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/core/BasePlayWrightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BasePlayWrightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exampleTests/GlobalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practiceForm/PracticeForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/environment.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -62,20 +77,32 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/!Teach/playwright_teach_ITFreiendly/src/test/resources/testSuites",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\!Teach\playwright_teach_ITFreiendly\src\test\resources\testSuites" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\!Teach\playwright_teach_ITFreiendly\src\test\resources\testSuites" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="GlobalTest.checkTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PracticeForm.checkTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="playwright_teach" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exampleTests.*" />
+          <option name="PATTERN" value="practiceForm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="exampleTests" />
-      <option name="MAIN_CLASS_NAME" value="exampleTests.GlobalTest" />
+      <option name="MAIN_CLASS_NAME" value="practiceForm.PracticeForm" />
       <option name="METHOD_NAME" value="checkTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -86,7 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GlobalTest.checkTest" />
+        <item itemvalue="TestNG.PracticeForm.checkTest" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +182,14 @@
       <option name="presentableId" value="Default" />
       <updated>1714070916780</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add Global class, checking manual merge">
+      <created>1714071264787</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714071264787</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +209,7 @@
     <MESSAGE value="change action, add suites" />
     <MESSAGE value="change action add name options" />
     <MESSAGE value="change action" />
-    <option name="LAST_COMMIT_MESSAGE" value="change action" />
+    <MESSAGE value="add Global class, checking manual merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Global class, checking manual merge" />
   </component>
 </project>

@@ -1,6 +1,7 @@
 package core;
 
 import com.microsoft.playwright.*;
+import com.microsoft.playwright.impl.PlaywrightImpl;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
 import org.testng.ITestResult;
@@ -99,6 +100,8 @@ public class BasePlayWrightTest {
     public void addLog() throws IOException {
         String logfile = String.format("target/itfriendly-test.log");
         Path logpath = Paths.get(logfile);
-        Allure.addAttachment("itfriendly-test.log", new ByteArrayInputStream(Files.readAllBytes(logpath)));
+        Allure.addAttachment("target/itfriendly-test.log", new ByteArrayInputStream(Files.readAllBytes(logpath)));
     }
+
+
 }
