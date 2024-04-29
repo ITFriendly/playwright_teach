@@ -1,4 +1,4 @@
-package exampleTests;
+package alertsFramesWindows.temp;
 
 import core.BasePlayWrightTest;
 import lombok.extern.slf4j.Slf4j;
