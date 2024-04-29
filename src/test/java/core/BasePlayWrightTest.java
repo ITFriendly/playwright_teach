@@ -77,6 +77,7 @@ public class BasePlayWrightTest {
         String uuid = UUID.randomUUID().toString();
         String randomStr = String.valueOf(new Random().nextInt(100));
         if (!result.isSuccess()) {
+            addLog();
             byte[] screenshot = page.screenshot(new Page.ScreenshotOptions()
                     .setPath(Paths.get("target/allure-results/screenshot_" + uuid + "screenshot.png"))
                     .setFullPage(true));
