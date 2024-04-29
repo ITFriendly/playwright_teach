@@ -1,0 +1,18 @@
+INFO  15:38:28 addLogs() - Just info message
+ERROR 15:38:28 addLogs() - Error + this is errroooooor
+INFO  15:38:28 addLogs() - org.itfriendly.Lombokeeting
+INFO  15:38:28 addLogs() - a is - 123
+ERROR 15:38:36 test() - Штрашна ажжж жуть ))) 
+ERROR 15:39:06 fram1test() - Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-6943748484796644077/package/lib/server/progress.js:78:26)
+    at Frame.goto (/tmp/playwright-java-6943748484796644077/package/lib/server/frames.js:517:23)
+    at FrameDispatcher.goto (/tmp/playwright-java-6943748484796644077/package/lib/server/dispatchers/frameDispatcher.js:81:119)
+    at FrameDispatcher._handleCommand (/tmp/playwright-java-6943748484796644077/package/lib/server/dispatchers/dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-6943748484796644077/package/lib/server/dispatchers/dispatcher.js:365:39)
+}
+Call log:
+- navigating to "https://demoqa.com/frames", waiting until "load"
+
