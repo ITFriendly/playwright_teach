@@ -17,7 +17,6 @@ public class WindowsTest extends BasePlayWrightTest {
 
     @Test(retryAnalyzer = RetryAnalyzer.class)
     public void newTabTest(){
-
         page.navigate("https://demoqa.com/browser-windows");
         Locator locator = page.locator("#tabButton");
         Page popup = page.waitForPopup(()->{

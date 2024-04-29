@@ -10,7 +10,6 @@ import org.testng.annotations.Test;
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
 @Slf4j
-
 public class NestedFramesTest extends BasePlayWrightTest {
 
     @Test(retryAnalyzer = RetryAnalyzer.class)
