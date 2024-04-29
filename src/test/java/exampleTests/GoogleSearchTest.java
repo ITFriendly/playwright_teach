@@ -1,4 +1,4 @@
-package alertsFramesWindows.temp;
+package exampleTests;
 
 import core.BasePlayWrightTest;
 import io.qameta.allure.*;
